@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg aria-labelledby="chart-title chart-desc" xmlns:xlink="http://www.w3.org/1999/xlink" width="496.06625pt" height="280.276313pt" viewBox="0 0 496.06625 280.276313" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<title id="chart-title">Demand concentration</title>
+<desc id="chart-desc">Positive reactions across feature requests; shares are computed from the processed public issue dataset.</desc>
+ <rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+ <style>text{font-family:Inter,-apple-system,"Segoe UI",Arial,sans-serif}</style>
+<defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.276313 
+L 496.06625 280.276313 
+L 496.06625 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 38.70625 256.809125 
+L 488.86625 256.809125 
+L 488.86625 34.657125 
+L 38.70625 34.657125 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 59.168068 256.809125 
+L 176.092744 256.809125 
+L 176.092744 207.267263 
+L 59.168068 207.267263 
+z
+" clip-path="url(#pf2e6b45455)" style="fill: #167d78"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 205.323912 256.809125 
+L 322.248588 256.809125 
+L 322.248588 79.087525 
+L 205.323912 79.087525 
+z
+" clip-path="url(#pf2e6b45455)" style="fill: #38a69b"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 351.479756 256.809125 
+L 468.404432 256.809125 
+L 468.404432 88.52407 
+L 351.479756 88.52407 
+z
+" clip-path="url(#pf2e6b45455)" style="fill: #e0a144"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md3e780f366" d="M 0 0 
+L 0 3.5 
+" style="stroke: #33434d; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md3e780f366" x="117.630406" y="256.809125" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: middle" x="117.630406" y="271.088813" transform="rotate(-0 117.630406 271.088813)">Top 1%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md3e780f366" x="263.78625" y="256.809125" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: middle" x="263.78625" y="271.088813" transform="rotate(-0 263.78625 271.088813)">Top 10%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#md3e780f366" x="409.942094" y="256.809125" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: middle" x="409.942094" y="270.966938" transform="rotate(-0 409.942094 270.966938)">Zero reactions</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="mb8ea84e704" d="M 0 0 
+L -3.5 0 
+" style="stroke: #33434d; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="256.809125" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="260.388031" transform="rotate(-0 31.70625 260.388031)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="230.5965" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="234.175406" transform="rotate(-0 31.70625 234.175406)">10</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="204.383874" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="207.962781" transform="rotate(-0 31.70625 207.962781)">20</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="178.171249" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="181.750155" transform="rotate(-0 31.70625 181.750155)">30</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="151.958624" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="155.53753" transform="rotate(-0 31.70625 155.53753)">40</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="125.745998" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="129.324904" transform="rotate(-0 31.70625 129.324904)">50</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="99.533373" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="103.112279" transform="rotate(-0 31.70625 103.112279)">60</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="73.320747" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="76.899654" transform="rotate(-0 31.70625 76.899654)">70</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mb8ea84e704" x="38.70625" y="47.108122" style="fill: #33434d; stroke: #33434d; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: end" x="31.70625" y="50.687028" transform="rotate(-0 31.70625 50.687028)">80</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="fill: #33434d; font: 10px 'Arial'; text-anchor: middle" x="14.479688" y="145.733125" transform="rotate(-90 14.479688 145.733125)">Share (%)</text>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 38.70625 256.809125 
+L 38.70625 34.657125 
+" style="fill: none; stroke: #c9d2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 38.70625 256.809125 
+L 488.86625 256.809125 
+" style="fill: none; stroke: #c9d2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_14">
+    <text style="fill: #17242d; font: 10px 'Arial'; text-anchor: middle" x="117.630406" y="201.279763" transform="rotate(-0 117.630406 201.279763)">18.9%</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #17242d; font: 10px 'Arial'; text-anchor: middle" x="263.78625" y="73.100025" transform="rotate(-0 263.78625 73.100025)">67.8%</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #17242d; font: 10px 'Arial'; text-anchor: middle" x="409.942094" y="82.53657" transform="rotate(-0 409.942094 82.53657)">64.2%</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #17242d; font: 12px 'Arial'" transform="translate(203.421562 15.789375)">Demand concentration</text>
+    <text style="fill: #17242d; font: 12px 'Arial'" transform="translate(188.671875 28.657125)">n=1,634 | pulled 2026-10-19</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf2e6b45455">
+   <rect x="38.70625" y="34.657125" width="450.16" height="222.152"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,7 @@
+workspace_id,event_name,occurred_at,event_id,sdk_version,variable_name,value_type,error_category
+TEST FIXTURE A,theme_config_started,2026-01-01 10:00:00,e1,0.60,,,,
+TEST FIXTURE A,theme_published,2026-01-01 10:10:00,e2,0.60,,,,
+TEST FIXTURE B,theme_config_started,2026-01-02 10:00:00,e3,0.60,,,,
+TEST FIXTURE B,theme_published,2026-01-02 10:20:00,e4,0.60,,,,
+TEST FIXTURE C,theme_config_started,2026-01-03 10:00:00,e5,0.60,,,,
+TEST FIXTURE C,theme_error,2026-01-03 10:05:00,e6,0.60,,,,

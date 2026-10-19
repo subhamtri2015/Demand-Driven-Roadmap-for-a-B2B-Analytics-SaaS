@@ -1,0 +1,9 @@
+number,title,reactions_plus1,comments
+59486,Support Snowflake Semantic Views,39,6
+59237,Support CSS variables in SDK theming,35,1
+66680,Remote sync: Support multiple branches for different users at the same time,30,0
+60931,🩸😭🔫 Adjusting colors Sankey Chart,20,3
+69446,Provide the way to copy table cells without copying column headers,19,4
+55763,Support alternative authentication mechanisms when using BigQuery (OAuth or default GCP credentials),17,6
+61587,Visualisation: Spark Charts,14,2
+79649,make 2FA part of opensource,13,3

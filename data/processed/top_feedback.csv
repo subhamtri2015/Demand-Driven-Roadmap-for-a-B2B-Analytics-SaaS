@@ -1,0 +1,16 @@
+number,title,reactions_plus1,comments,state,has_milestone,labels_str
+59486,Support Snowflake Semantic Views,39,6,open,False,Type:New Feature|Database/Snowflake|.Team/SemanticLayer
+59237,Support CSS variables in SDK theming,35,1,open,False,Type:New Feature|.Team/Embedding|Embedding/SDK
+77874,Allow Metabot to use Ollama for self-hosted LLM,31,4,closed,True,Type:New Feature
+66680,Remote sync: Support multiple branches for different users at the same time,30,0,open,False,Type:New Feature|.Team/UXWest|.Auto triaged|Operation/Remote-Sync
+71686,Add card CRUD support to MCP,22,5,closed,False,Type:New Feature|.Team/Metabot
+60931,🩸😭🔫 Adjusting colors Sankey Chart,20,3,open,False,Type:New Feature|.Team/DashViz|Visualization/Charts/Sankey
+71888,Other llm providers for Metabot Self Hosted,19,9,closed,False,Type:New Feature|Metabot/General|Administration/Auth/API Keys|.Team/UXWest
+69446,Provide the way to copy table cells without copying column headers,19,4,open,False,Visualization/|Type:New Feature|Visualization/Tables|.Team/UXWest|.Auto triaged
+71687,Add dashboard read support to MCP,19,2,closed,True,Type:New Feature|.Team/Metabot
+71375,Bring your own model,18,9,closed,False,Type:New Feature|.Team/Metabot
+73432,Custom model name and base url for Metabot Self Hosted,18,0,closed,False,Type:New Feature|.Team/Metabot|.Auto triaged
+55763,Support alternative authentication mechanisms when using BigQuery (OAuth or default GCP credentials),17,6,open,False,Type:New Feature|Database/BigQuery
+73907,Add group controls for MCP access,17,3,closed,False,Priority:P2|Type:New Feature|.Team/Metabot|.Auto triaged|Metabot/MCP
+63190,Metabase MCP server,16,3,closed,False,Type:New Feature|Metabot/General|.Team/Metabot
+79092,Support Gemini with Metabot,14,3,closed,False,Priority:P3|Type:New Feature|.Needs Triage|.Team/Metabot

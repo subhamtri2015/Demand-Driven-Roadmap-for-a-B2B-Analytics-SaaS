@@ -1,0 +1,9 @@
+id,epic,title,type,priority_moscow,points_assumption,acceptance_summary,linked_issue,status
+S-1,E1 Foundations,Variable namespace and spec,Story,Must,3,Supported variable names types defaults and validation are specified,,Planned not executed
+S-2,E1 Foundations,Map existing tokens to variables,Story,Must,5,Token mapping and component coverage are reviewed and documented,,Planned not executed
+S-3,E1 Foundations,Precedence rules theme object vs variables,Story,Must,3,Conflict behavior is specified and tested against approved precedence,,Planned not executed
+S-4,E2 Typography and isolation,Font size and family handling,Story,Must,5,Supported font properties fallback and invalid values are specified,,Planned not executed
+S-5,E2 Typography and isolation,Style isolation from host CSS,Story,Should,8,Host-style collision cases are tested against the agreed isolation boundary,,Planned not executed
+S-6,E3 Modes and docs,Dark mode via variables,Story,Should,5,Dark values and switching behavior are specified and validated,,Planned not executed
+S-7,E3 Modes and docs,Docs and migration guide,Story,Must,3,Reference docs examples and migration guidance are reviewed,,Planned not executed
+S-8,E4 Measurement,Tracking events and dashboard,Story,Should,3,Proposed events are validated and an aggregate dashboard definition is documented,,Planned not executed

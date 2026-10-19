@@ -1,0 +1,12 @@
+area,requests,total_plus1,mean_plus1,pct_closed
+Administration,289,330.0,1.14,21.5
+Reporting,240,277.0,1.15,25.0
+Visualization,234,258.0,1.1,18.8
+Querying,201,233.0,1.16,25.4
+Database,74,161.0,2.18,36.5
+Metabot,46,160.0,3.48,43.5
+Embedding,135,135.0,1.0,35.6
+Organization,97,107.0,1.1,19.6
+Operation,45,84.0,1.87,28.9
+Semantic Layer,67,40.0,0.6,28.4
+Misc,37,28.0,0.76,48.6

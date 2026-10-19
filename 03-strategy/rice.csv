@@ -1,0 +1,6 @@
+initiative,impact,confidence,effort,assumption_note
+A,2,0.80,2,Assumptions: moderate impact, directional confidence, moderate effort
+B,2,0.70,3,Assumptions: moderate impact and confidence, higher connector effort
+C,3,0.50,5,Assumptions: higher impact, uncertain confidence, substantial effort
+D,2,0.40,4,Assumptions: moderate impact, low confidence, substantial effort
+E,2,0.60,3,Assumptions: moderate impact and confidence, moderate effort
