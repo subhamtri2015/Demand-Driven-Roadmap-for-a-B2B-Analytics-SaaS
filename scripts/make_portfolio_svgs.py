@@ -91,37 +91,41 @@ for index, (horizon, title, metric) in enumerate(roadmap_cards):
 save("roadmap.svg", wrap_svg("Assumption-based roadmap", "Now, Next, Later proposed order with success metrics identified as assumptions.", 1010, 310, roadmap_body))
 
 matrix_rows = [
-    ("Embed theming mechanism", "Documented", "Documented", "Public request only", "Not researched", "Not researched"),
-    ("CSS-variable theming", "Not found in docs read", "Not found in docs read", "Request only", "Not researched", "Not researched"),
-    ("Runtime change", "Documented", "Partial", "Not researched", "Not researched", "Not researched"),
-    ("Per-report/dashboard theme", "Documented", "Documented", "Not researched", "Not researched", "Not researched"),
-    ("Theme management API", "Not researched", "Documented", "Not researched", "Not researched", "Not researched"),
-    ("Precedence problem evidence", "Not found in docs read", "Partial; PR status unverified", "Not researched", "Not researched", "Not researched"),
+    ("Embed theming mechanism", ("D", "IReportTheme\nembed config"), ("D", "Tokens\n(Ant v5)"), ("P", "Issue #59237\nrequest only"), ("D", "Admin themes\n+ Embed SDK"), ("P", "Embed API v3\n(theme not found)")),
+    ("CSS-variable theming", ("N", "Not found in\nread docs"), ("N", "Not found for\nembeds"), ("P", "Public request\nonly"), ("N", "Not found in\nread docs"), ("N", "Not found in\nread docs")),
+    ("Runtime theme change", ("D", "applyTheme /\nresetTheme"), ("P", "SDK theme passing\n(vendor blog)"), ("U", "Not researched"), ("D", "theme + _theme\nURL arguments"), ("P", "Workbook params\nchange at runtime")),
+    ("Per-dashboard/report theme", ("D", "Per-report\ntheme JSON"), ("D", "Per-dashboard\nthemes"), ("U", "Not researched"), ("D", "Dashboard / Explore;\nnot embedded Looks"), ("P", "Per-view theme not\nfound in docs")),
+    ("Theme management API", ("U", "Not researched"), ("D", "Theme UI + REST\nPOST /api/v1/theme"), ("U", "Not researched"), ("D", "Themes admin UI;\nTheme API schema"), ("U", "Not found in\nread docs")),
+    ("Theme precedence", ("N", "Not found in\nread docs"), ("P", "PR #40763; fix\nstatus unverified"), ("U", "Not researched"), ("D", "Default > theme >\n_theme"), ("U", "Not found in\nread docs")),
 ]
 cols = ["Power BI", "Superset", "Metabase SDK", "Looker", "Tableau"]
-matrix_body = '<text x="24" y="40" class="heading">Documented competitor facts</text>'
-matrix_body += '<text x="24" y="66" class="small">Green = documented; amber = partial; grey = not found in docs read; dashed = not researched.</text>'
-matrix_body += '<text x="20" y="118" class="small">Capability</text>'
+matrix_body = '<text x="24" y="40" class="heading">Competitor embedding and theme evidence</text>'
+matrix_body += '<text x="24" y="66" class="small">Green = documented; amber = partial or public request; grey = not found in reviewed docs; dashed = not researched.</text>'
+matrix_body += '<text x="20" y="121" class="small">Capability</text>'
+label_width = 255
+column_start = 280
+column_width = 174
 for j, col in enumerate(cols):
-    x = 245 + j * 145
+    x = column_start + j * column_width
+    label = col.replace(" ", "\n") if col == "Metabase SDK" else col
     if col == "Metabase SDK":
-        matrix_body += (
-            f'<text x="{x+68}" y="101" class="small" text-anchor="middle">Metabase</text>'
-            f'<text x="{x+68}" y="119" class="small" text-anchor="middle">SDK</text>'
-        )
+        matrix_body += f'<text x="{x+78}" y="103" class="small" text-anchor="middle">Metabase</text><text x="{x+78}" y="120" class="small" text-anchor="middle">SDK</text>'
     else:
-        matrix_body += f'<text x="{x+68}" y="110" class="small" text-anchor="middle">{col}</text>'
+        matrix_body += f'<text x="{x+78}" y="112" class="small" text-anchor="middle">{col}</text>'
+status_style = {"D": (TEAL, ""), "P": (AMBER, ""), "N": (GREY, ""), "U": ("#ffffff", ' stroke-dasharray="4 3"')}
 for i, (label, *cells) in enumerate(matrix_rows):
-    y = 134 + i * 58
-    matrix_body += f'<text x="20" y="{y+23}" class="small">{label}</text>'
-    for j, cell in enumerate(cells):
-        x = 245 + j * 145
-        dashed = " stroke-dasharray=\"4 3\"" if cell == "Not researched" else ""
-        fill = TEAL if cell == "Documented" else (AMBER if cell.startswith("Partial") or cell == "Public request only" else GREY)
-        matrix_body += f'<rect x="{x}" y="{y}" width="136" height="42" rx="2" fill="{fill}" stroke="#9aa7ad"{dashed}/>'
-        short = cell.replace("Public request only", "Request only").replace("Not found in docs read", "Not found in docs").replace("Partial; PR status unverified", "Partial; status ?")
-        matrix_body += f'<text x="{x+6}" y="{y+25}" class="small">{short}</text>'
-save("competitor-matrix.svg", wrap_svg("Competitor theme evidence matrix", "Competitor facts restricted to cited documentation and one pull request; green is documented, amber partial, grey not found in docs read, and dashed not researched.", 990, 493, matrix_body))
+    y = 136 + i * 62
+    matrix_body += f'<text x="20" y="{y+28}" class="small">{label}</text>'
+    for j, (status, text) in enumerate(cells):
+        x = column_start + j * column_width
+        fill, dash = status_style[status]
+        matrix_body += f'<rect x="{x}" y="{y}" width="164" height="54" rx="2" fill="{fill}" stroke="#9aa7ad"{dash}/>'
+        lines = text.split("\n")
+        text_y = y + (27 - (len(lines)-1) * 7)
+        matrix_body += f'<text x="{x+6}" y="{text_y}" class="cell">'
+        matrix_body += "".join(f'<tspan x="{x+6}" dy="{0 if line_index == 0 else 14}">{line_text}</tspan>' for line_index, line_text in enumerate(lines))
+        matrix_body += '</text>'
+save("competitor-matrix.svg", wrap_svg("Competitor embedding and theme evidence matrix", "Official documentation findings for Power BI Embedded, Apache Superset, public Metabase requests, Looker, and Tableau. Evidence states distinguish documented, partial, not found in docs read, and not researched.", 1180, 520, matrix_body).replace(".small{font-size:13px}", ".small{font-size:12px}.cell{font-size:11px}"))
 
 journey = [
     ("Evaluate", "Compare product fit"),

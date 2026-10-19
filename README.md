@@ -80,7 +80,7 @@ Initiative A leads the base calculation; the score difference is narrow, and cha
 
 ![Competitor evidence matrix](assets/competitor-matrix.svg)
 
-Facts are restricted to the sources documented in the [competitor landscape](01-research/competitor-landscape.md). “Not found in docs read” is not proof that a feature does not exist. Looker and Tableau are not researched.
+Facts are restricted to the official docs and sources listed in the [competitor landscape](01-research/competitor-landscape.md). “Not found in docs read” is not proof that a feature does not exist. Looker documents embedded custom themes and URL-based selection/precedence; Tableau docs reviewed describe embed configuration and workbook parameters, but do not establish embedded theme management.
 
 ## PRD and Proposed Design
 
