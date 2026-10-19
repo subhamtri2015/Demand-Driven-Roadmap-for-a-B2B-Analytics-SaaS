@@ -169,13 +169,6 @@ The download-count API was not pulled; see [data sources](01-research/data-sourc
 - Merged PRs include bots/backports and are not velocity.
 - No customer interviews, Jira board, feature usage, revenue, or internal strategy data is available here.
 
-## About
-
-- Name: [Your name]
-- Role: [Role]
-- LinkedIn: [LinkedIn]
-- CV: [CV link]
-- Email: [Email]
 
 ## Sources
 
