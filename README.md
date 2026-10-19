@@ -32,20 +32,6 @@ The MIT license in this repository applies to the original code only; it does no
 
 > **Thirty-second summary:** A public issue dataset pulled 2026-10-19 contains **1,634** feature requests, of which **1,182** are open. The top 10% hold **67.8%** of positive reactions, while **64.2%** have none. A proposed SDK theming initiative ranks first under stated RICE assumptions, but the lead over the next initiative is narrow and sensitivity can change the order. No internal product data, customer interviews, or delivery results are claimed.
 
-## Hiring-Manager Map
-
-| JD line | Proof | Link |
-|---|---|---|
-| J1 Strategy and prioritization | Public issue analysis, RICE, roadmap | [Strategy](03-strategy/strategy-one-pager.md) |
-| J2 Product analytics | Processed findings and metrics plan | [Findings](02-analysis/findings.md) |
-| J3 SQL and technical specs | DuckDB analysis and acceptance criteria | [SQL](scripts/analysis.sql) · [PRD](04-prd/PRD-embedding-sdk-theming.md) |
-| J4 PRDs | Draft v0.1 PRD | [PRD](04-prd/PRD-embedding-sdk-theming.md) |
-| J5 Cross-functional collaboration | Proposed RACI and communications | [RACI](07-stakeholders/raci.md) |
-| J6 Roadmap and success metrics | Proposed roadmap and metrics plan | [Roadmap](03-strategy/roadmap.md) |
-| J7 Market/user evidence | Public data and limited competitor facts | [Research](01-research/competitor-landscape.md) |
-| J8 Agile and release quality | Planned sprints plus observed public release context | [Delivery plan](06-delivery/sprint-plan.md) |
-| J9 B2B SaaS lifecycle | Hypothetical embed journey and lifecycle caveats | [Journey](01-research/user-journey.md) |
-
 ## Key Findings
 
 | Signal | Result | Interpretation |
